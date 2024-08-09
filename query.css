@@ -1,0 +1,15 @@
+@media only screen and (max-width:796px) {
+  .feeding{
+    position: absolute;
+    top: 200px;
+  }  
+  .feedback{
+    height: 370px;
+  }
+  .photo{
+    height: 400px;
+  }
+}
+@media only screen and (max-width:) {
+  
+}

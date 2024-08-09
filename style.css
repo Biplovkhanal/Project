@@ -1,0 +1,67 @@
+.contents li:hover{
+    border-bottom: 1px solid black;
+    transform: translateY(-5px);
+}
+.foot{
+    height: 40vh;
+}
+.photo{
+    margin-top: 70px;
+}
+.photo{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center p{
+    font-size: 10vh;
+}
+.center input{
+    background: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.center input:hover{
+    transform: scale(1);
+    transition: transform 0.3s;
+    transition-delay: 5s;
+}
+.feedback{
+    display: flex;
+    height: 50vh; 
+    background-color: black; 
+    color: white; 
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.feed{
+    text-align: center; 
+    justify-content: center; 
+    position: absolute; 
+    margin-top: 40px;
+}
+.feeding{
+    text-align: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+}
+.pic{
+    height: 30px;
+    margin: 10px;
+}
+.pic:hover{
+    cursor: pointer;
+}
